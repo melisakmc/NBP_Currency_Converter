@@ -63,6 +63,7 @@ public class NBPController {
 	    }	
 	}
 	
+	//returns average gold price
 	@GetMapping("/api/gold-price/average")
 	public ResponseEntity<List<GoldPrice>> getAvgGoldPrice() throws ParseException, IOException {
 		
